@@ -9,10 +9,9 @@ public final class Main {
     }
 
     public static void main(String[] args) {
-        ShippingRequest shippingRequest =
-                new ShippingRequest("Juan", "Perez", "Av. Rep. de Panama", 12);
-        ShippingService shippingService =
-                new ShippingService();
+
+        ShippingRequest shippingRequest = new ShippingRequest("Juan", "Perez", "Av. Rep. de Panama", 12);
+        ShippingService shippingService = new ShippingService();
 
         shippingService.register(shippingRequest);
 
